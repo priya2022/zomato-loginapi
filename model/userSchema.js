@@ -1,4 +1,4 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const userSchema =  new mongoose.Schema({
     name:String,
@@ -8,5 +8,5 @@ const userSchema =  new mongoose.Schema({
     role:String
 })
 
-mongoose.model('imdbUsers',userSchema);
-module.exports =mongoose.model('imdbUsers')
+mongoose.model('InternUser',userSchema);
+module.exports = mongoose.model('InternUser')
